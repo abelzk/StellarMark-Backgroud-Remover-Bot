@@ -1,4 +1,5 @@
 # Stellarmark Background Remover Bot
+![Logo](https://socialify.git.ci/abelzk/Dual-Axis-Solar-Tracker-Arduino/image?language=1&owner=1&name=1&stargazers=1&theme=Light)
 
 Stellarmark Background Remover Bot is a powerful Telegram bot designed to help you easily remove the background from your images. Built with Python, this bot leverages cutting-edge image processing libraries to deliver fast and accurate results. Whether you want to clean up a profile picture or create a transparent image, Stellarmark has you covered.
 
