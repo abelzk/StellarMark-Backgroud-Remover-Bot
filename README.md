@@ -1,24 +1,25 @@
 # Stellarmark Background Remover Bot
 
-Stellarmark Background Remover Bot is a Telegram bot that allows users to remove the background from images. The bot is built with Python and leverages the `rembg` library for background removal. Users can interact with the bot via direct commands, image uploads, or inline queries. Additionally, the bot offers a referral system that rewards users with additional image processing quotas for each successful referral.
+Stellarmark Background Remover Bot is a powerful Telegram bot designed to help you easily remove the background from your images. Built with Python, this bot leverages cutting-edge image processing libraries to deliver fast and accurate results. Whether you want to clean up a profile picture or create a transparent image, Stellarmark has you covered.
 
-## Features
+## 🚀 Features
 
-- **Image Background Removal:** Upload an image, and the bot will remove the background for you.
-- **Referral System:** Invite friends to use the bot and increase your daily processing quota.
-- **Inline Queries:** Use the bot inline to quickly remove backgrounds from images shared in any chat.
-- **Daily Quota:** Each user has a daily quota of images they can process. This quota can be increased via referrals.
-- **Usage Statistics:** View your current usage statistics, including your daily quota, images processed, and referral status.
+- **Automatic Background Removal**: Upload any image, and the bot will remove the background for you in seconds.
+- **Referral System**: Invite friends to use the bot and increase your daily processing quota.
+- **Inline Mode**: Use the bot directly in any chat by typing `@your_bot_username` to quickly remove backgrounds from images.
+- **Daily Quota Management**: Manage your daily image processing limit, which can be expanded through referrals.
+- **Statistics**: Keep track of your usage and referral stats.
 
-## Installation
+## 🛠 Installation
 
-To run this bot locally, follow these steps:
+To set up and run the Stellarmark Background Remover Bot locally, follow these steps:
 
-1. **Clone the repository:**
+### 1. Clone the Repository
 
-    ```bash
-    git clone https://github.com/yourusername/stellarmark-bg-remover-bot.git
-    cd stellarmark-bg-remover-bot
+```bash
+git clone https://github.com/abelzk/StellarMark-Backgroud-Remover-Bot.git
+cd stellarmark-bg-remover-bot
+
     ```
 
 2. **Install the dependencies:**
@@ -44,7 +45,7 @@ To run this bot locally, follow these steps:
     python bot.py
     ```
 
-## Commands
+## 📋 Commands
 
 - `/start` - Start the bot and register a new user.
 - `/help` - Display help information on how to use the bot.
@@ -52,7 +53,7 @@ To run this bot locally, follow these steps:
 - `/referral` - Display your referral information and link.
 - `/stats` - Display overall bot statistics (only available to the bot admin).
 
-## Usage
+## 📌 Usage Guide
 
 1. **Send an Image:** Simply send an image to the bot, and it will return the image with the background removed.
 
@@ -60,7 +61,7 @@ To run this bot locally, follow these steps:
 
 3. **Inline Queries:** Use the bot in any chat by typing `@your_bot_username` followed by your query to quickly remove backgrounds from images.
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - **Python**: The primary language for the bot.
 - **Telegram Bot API**: Used to interact with Telegram users.
@@ -69,13 +70,17 @@ To run this bot locally, follow these steps:
 - **Pillow**: Python Imaging Library (PIL) for image processing.
 - **httpx**: HTTP client for asynchronous requests.
 
-## License
+## 📊 Statistics
+- **Total Users:** View the number of registered users.
+- **Total Images Processed:** Track how many images have been processed by the bot.
+
+## 📝 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Feel free to submit a pull request or open an issue to suggest improvements.
+Contributions are welcome! If you have ideas for new features or improvements, feel free to fork the repository, create a branch, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Contact
 
