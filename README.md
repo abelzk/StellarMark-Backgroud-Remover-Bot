@@ -19,39 +19,34 @@ To set up and run the Stellarmark Background Remover Bot locally, follow these s
 ```bash
 git clone https://github.com/abelzk/StellarMark-Backgroud-Remover-Bot.git
 cd stellarmark-bg-remover-bot
-    ```
-
+```
 2. **Install the dependencies:**
 
  ```bash
     pip install -r requirements.txt
-    ```
+```
 
 3. **Set up environment variables:**
 
-    Create a `.env` file in the root directory of the project and add the following environment variables:
+    Edit the `.env` file in the root directory of the project and add the following environment variables:
 
     ```env
     BOT_TOKEN=your-telegram-bot-token
     BOT_USERNAME=your-bot-username
     CHANNEL_PRIVATE_LINK=your-channel-private-link
     API_KEY=your-sqlitecloud-api-key
-    ```
+
 
 4. **Run the bot:**
-
-    ```bash
+```
     python bot.py
-    ```
-
+```
 ## 📋 Commands
-   ```bash
 - `/start` - Start the bot and register a new user.
 - `/help` - Display help information on how to use the bot.
 - `/usage` - Display your current usage statistics.
 - `/referral` - Display your referral information and link.
 - `/stats` - Display overall bot statistics (only available to the bot admin).
-   ```
 
 ## 📌 Usage Guide
 
